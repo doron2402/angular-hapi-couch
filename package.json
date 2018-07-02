@@ -4,7 +4,9 @@
   "description": "Application using angular.js, hapi.js API server and CouchDB for resources",
   "main": "index.js",
   "scripts": {
-    "start": "grunt server"
+    "start": "grunt server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": "git://github.com/iotaweb/angular-hapi-couch.git",
   "author": "Rob Anderson",
@@ -13,21 +15,23 @@
     "cores-server": "~0.2.x",
     "jade": "~0.35.x",
     "jski": "~0.3.x",
-    "kew": "~0.2.x"    
+    "kew": "~0.2.x",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
-    "chai": "~1.6.x",  
+    "chai": "~1.6.x",
     "grunt": "~0.4.x",
     "grunt-angular-templates": "~0.3.x",
     "grunt-contrib-concat": "~0.3.x",
-    "grunt-contrib-jade": "~0.8.x",  
+    "grunt-contrib-jade": "~0.8.x",
     "grunt-contrib-stylus": "~0.8.x",
     "grunt-contrib-uglify": "~0.2.x",
     "grunt-contrib-watch": "~0.5.x",
-    "grunt-karma": "~0.4.x",    
+    "grunt-karma": "~0.4.x",
     "grunt-ngmin": "~0.0.x",
     "karma": "~0.9.x",
-    "karma-mocha": "~0.0.x",        
+    "karma-mocha": "~0.0.x",
     "nano": "~4.1.x"
-  }
+  },
+  "snyk": true
 }
