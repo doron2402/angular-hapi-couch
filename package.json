@@ -10,7 +10,7 @@
   "author": "Rob Anderson",
   "license": "BSD",
   "dependencies": {
-    "cores-server": "~0.2.x",
+    "cores-server": "~0.3.0",
     "jade": "~0.35.x",
     "jski": "~0.3.x",
     "kew": "~0.2.x"    
