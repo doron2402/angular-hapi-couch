@@ -11,7 +11,7 @@
   "license": "BSD",
   "dependencies": {
     "cores-server": "~0.2.x",
-    "jade": "~0.35.x",
+    "jade": "~1.11.0",
     "jski": "~0.3.x",
     "kew": "~0.2.x"    
   },
